@@ -1,0 +1,162 @@
+[
+  {
+    "company": "TechVision",
+    "title": "Frontend Developer",
+    "since": "2 days ago",
+    "jobType": "Remote",
+    "location": "Germany",
+    "skills": ["JavaScript", "HTML", "CSS", "React"]
+  },
+  {
+    "company": "DataFlow",
+    "title": "Backend Engineer",
+    "since": "1 week ago",
+    "jobType": "On-site",
+    "location": "USA",
+    "skills": ["Python", "SQL", "Node.js"]
+  },
+  {
+    "company": "Cloudify",
+    "title": "Full Stack Developer",
+    "since": "5 days ago",
+    "jobType": "Hybrid",
+    "location": "UK",
+    "skills": ["JavaScript", "Node.js", "React", "SQL"]
+  },
+  {
+    "company": "CyberNet",
+    "title": "Security Analyst",
+    "since": "3 weeks ago",
+    "jobType": "Remote",
+    "location": "Canada",
+    "skills": ["Python", "Linux", "SQL"]
+  },
+  {
+    "company": "InnovaSoft",
+    "title": "Mobile App Developer",
+    "since": "1 day ago",
+    "jobType": "On-site",
+    "location": "India",
+    "skills": ["Java", "Kotlin", "JavaScript"]
+  },
+  {
+    "company": "NextGen AI",
+    "title": "Machine Learning Engineer",
+    "since": "4 days ago",
+    "jobType": "Remote",
+    "location": "USA",
+    "skills": ["Python", "SQL", "JavaScript"]
+  },
+  {
+    "company": "WebCore",
+    "title": "Frontend Engineer",
+    "since": "6 days ago",
+    "jobType": "Hybrid",
+    "location": "Netherlands",
+    "skills": ["React", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    "company": "FinTech Pro",
+    "title": "Software Engineer",
+    "since": "2 weeks ago",
+    "jobType": "US only",
+    "location": "USA",
+    "skills": ["Python", "JavaScript", "SQL"]
+  },
+  {
+    "company": "BlueSky IT",
+    "title": "DevOps Engineer",
+    "since": "1 week ago",
+    "jobType": "Remote",
+    "location": "Australia",
+    "skills": ["Linux", "Python", "SQL"]
+  },
+  {
+    "company": "AppSphere",
+    "title": "UI/UX Designer",
+    "since": "3 days ago",
+    "jobType": "On-site",
+    "location": "Spain",
+    "skills": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "company": "RoboTech",
+    "title": "Robotics Engineer",
+    "since": "5 days ago",
+    "jobType": "Remote",
+    "location": "Japan",
+    "skills": ["Python", "C++", "SQL"]
+  },
+  {
+    "company": "EcoSoft",
+    "title": "Web Developer",
+    "since": "2 weeks ago",
+    "jobType": "Hybrid",
+    "location": "France",
+    "skills": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "company": "ByteWorks",
+    "title": "Software Tester",
+    "since": "1 week ago",
+    "jobType": "On-site",
+    "location": "Poland",
+    "skills": ["Python", "SQL", "JavaScript"]
+  },
+  {
+    "company": "SmartGrid",
+    "title": "Data Engineer",
+    "since": "4 days ago",
+    "jobType": "Remote",
+    "location": "USA",
+    "skills": ["Python", "SQL", "JavaScript"]
+  },
+  {
+    "company": "NovaSoft",
+    "title": "Cloud Engineer",
+    "since": "3 days ago",
+    "jobType": "Remote",
+    "location": "Sweden",
+    "skills": ["Python", "Linux", "SQL"]
+  },
+  {
+    "company": "BrightApps",
+    "title": "Frontend Developer",
+    "since": "1 week ago",
+    "jobType": "Hybrid",
+    "location": "Egypt",
+    "skills": ["Vue.js", "JavaScript", "CSS", "HTML"]
+  },
+  {
+    "company": "HealthTech",
+    "title": "Full Stack Developer",
+    "since": "2 weeks ago",
+    "jobType": "US only",
+    "location": "USA",
+    "skills": ["Node.js", "React", "JavaScript", "SQL"]
+  },
+  {
+    "company": "EduSoft",
+    "title": "Backend Developer",
+    "since": "2 days ago",
+    "jobType": "Remote",
+    "location": "India",
+    "skills": ["Java", "Spring Boot", "SQL"]
+  },
+  {
+    "company": "Orbit Systems",
+    "title": "AI Engineer",
+    "since": "1 week ago",
+    "jobType": "Remote",
+    "location": "USA",
+    "skills": ["Python", "SQL", "JavaScript"]
+  },
+  {
+    "company": "Zenith Labs",
+    "title": "Frontend Developer",
+    "since": "5 days ago",
+    "jobType": "On-site",
+    "location": "Germany",
+    "skills": ["React", "JavaScript", "HTML", "CSS"]
+  }
+]
