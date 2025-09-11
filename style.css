@@ -1,95 +1,102 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #f4f6f8;
+/* Reset & Base */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
   padding: 20px;
 }
 
-/* -----------------------
-   منطقة الفلاتر
------------------------ */
+/* Filters Bar */
 div:first-of-type {
   display: flex;
   gap: 10px;
-  margin-bottom: 20px;
   flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
-div:first-of-type span {
-  background: #e0f3ff;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
+/* Container */
+div:last-of-type {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
 }
 
-div:first-of-type span button {
-  background: transparent;
-  border: none;
-  color: #444;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-/* -----------------------
-   الكروت (الوظائف)
------------------------ */
-div > div {
-  background: white;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-}
-
-div > div h4 {
-  color: #0073e6;
-  margin: 0;
-  font-size: 16px;
-}
-
-div > div h3 {
-  margin: 5px 0;
-  font-size: 20px;
-  color: #333;
-}
-
-/* -----------------------
-   الميتا (since, jobType, location)
------------------------ */
-.meta {
-  background: #f0f0f0;
-  padding: 4px 10px;
+/* Job Card */
+div:last-of-type > div {
+  background: #fff;
+  padding: 20px;
   border-radius: 12px;
-  font-size: 13px;
-  color: #444;
-  margin-right: 8px;
-  display: inline-block;
-  margin-bottom: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* -----------------------
-   السكيلز
------------------------ */
+div:last-of-type > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Job Meta Info */
+.meta {
+  margin: 5px 0;
+}
+
+h3.meta {
+  font-size: 1.2rem;
+  color: #0077b6;
+}
+
+h4.meta {
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: 600;
+}
+
+/* Skills Section */
 .skills-div {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .skill {
-  background: #e6f7ec;
-  color: #2a7d2e;
-  padding: 5px 10px;
-  border-radius: 15px;
+  background: #e0f4ff;
+  color: #0077b6;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
   cursor: pointer;
-  font-size: 13px;
   transition: all 0.2s ease;
 }
 
 .skill:hover {
-  background: #ccefd8;
+  background: #0077b6;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  div:last-of-type > div {
+    padding: 15px;
+  }
+
+  h3.meta {
+    font-size: 1rem;
+  }
 }
